@@ -1,34 +1,59 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Grocify</title>
-        <link rel="stylesheet" href="style.css">
-        <script src="https://cdn.tailwindcss.com"></script>
-    </head>
-    <body class="w-screen">
-        <div class="w-full min-h-screen bg-[url('/images/image.png')] bg-cover bg-no-repeat bg-center px-28 py-5 relative">
-            <nav class="flex items-center">
-                <img src="images/logo.png" class="w-40 cursor-pointer">               
-                <ul class="flex-1 text-center">
-                    <li class="list-none inline-block px-5"><a href="index.html" class="no-underline text-white px-2">Home</a></li>
-                    <li class="list-none inline-block px-5"><a href="about.html" class="no-underline text-white px-2 border border-red-500">About</a></li>
-                    <li class="list-none inline-block px-5"><a href="features.html" class="no-underline text-white px-2">Features</a></li>
-                    <li class="list-none inline-block px-5"><a href="#" class="no-underline text-white px-2">Contact</a></li>
-                </ul>
-                <img src="images/cart.png" class="w-8 cursor-pointer">
-            </nav>
-            <div class="text-white mt-48 max-w-xl">
-                <h1 class="text-6xl font-semibold leading-normal">Groceries <br> delivery in <span class="font-light">15 mins</span></h1>
-                <p >Grocify offer a wide range of products, including fresh products, metas, 
-                    dairy, baked goods and non-peroshable items.</p>
-
-                <div class="mt-10">
-                    <a href="#" class="bg-emerald-600 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparent hover:border-emerald-600 hover:text-white duration-300 hover:border border border-transparent" >Order Now</a>
-                    <a href="#">Download App <span class="text-lg inline-block rotate-90">&#10148;</span></a>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocify</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="flex justify-center items-center h-screen">
+        <div class= "card bg-white p-10 rounded-lh w-[30%]">
+            <div class="card-header text-center pb-5">
+                <img src="images/2a7770e4-4e81-4942-a3a0-ff2ed47973ae.jpeg" class="rounded-full m-auto">
+            </div>
+            <h1 class="text-3xl font-bold">Hidayah Azmi</h1>
+            <p>Software Engineer</p>
+        </div>
+        <div class="card-links">
+            <a href="https://shijirohikiro.github.io/Portfolio_hidayah/">
+                <div class="card-item flex justify-between bg-gray-500 px-5 py-4 rounded-full mb-4 hover:bg-green-950 hover:scale-105 duration-500 cursor-pointer">
+                    <p class="name text-gray-50 text">Portfolio</p>
+                </div>
+            </a>
+            <div class="card-item flex justify-between bg-gray-500 px-5 py-4 rounded-full mb-4 hover:bg-green-950 hover:scale-105 duration-500 cursor-pointer">
+                <p class="name text-gray-50">Twitter</p>
+                <div class="icon">
+                    <i class="fa-brands fa-twitter"></i>
                 </div>
             </div>
-            <img src="images/grocery-image.png" class="w-full xl:w-1/2 xl:absolute bottom-0 right-7">
+            <div class="card-item flex justify-between bg-gray-500 px-5 py-4 rounded-full mb-4 hover:bg-green-950 hover:scale-105 duration-500 cursor-pointer">
+                <p class="name text-gray-50">Facebook</p>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </div>
+            </div>
+            <div class="card-item flex justify-between bg-gray-500 px-5 py-4 rounded-full mb-4 hover:bg-green-950 hover:scale-105 duration-500 cursor-pointer">
+                <p class="name text-gray-50">Whatsapp</p>
+                <div class="icon ml-4">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+            </div>
+            <div class="card-item flex justify-between bg-gray-500 px-5 py-4 rounded-full mb-4 hover:bg-green-950 hover:scale-105 duration-500 cursor-pointer">
+                <p class="name text-gray-50">Email</p>
+                <div class="icon ">                    
+                    <i class="fa-regular fa-envelope"></i>
+                </div>
+            </div>
         </div>
-    </body>
-</html>
+    </div>
+</body>
