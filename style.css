@@ -1,3 +1,16 @@
 body {
-    @apply bg-gradient-to-r from-cyan-500 to-blue-500; 
+    transition: background-color 0.3s ease;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode .bg-red-50 {
+    background-color: #1a202c; /* Example of dark mode color */
+}
+
+.dark-mode .text-gray-50 {
+    color: #ccc; /* Example of dark mode text color */
 }

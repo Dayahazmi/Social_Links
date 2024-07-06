@@ -9,23 +9,26 @@
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous"
     referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.counter.dev/script.js" data-id="2f7c5375-1cdf-40f0-8203-2dc90315fd1d" data-utcoffset="8"></script>
+    
 </head>
 <body class="bg-gradient-to-tr from-green-200 to-green-950 flex justify-center items-center h-screen">
-    <div class="bg-red-50 p-10 rounded-lg w-full md:w-[30%] text-center">
+    <div class="bg-red-50 p-10 rounded-lg w-full md:w-[30%] text-center">        
         <div class="pb-5">
             <img src="images/2a7770e4-4e81-4942-a3a0-ff2ed47973ae.jpeg" class="rounded-full m-auto w-50 h-24">
         </div>
+        
         <h1 class="text-3xl font-bold">Hidayah Azmi</h1>
         <p>Software Engineer</p>
         <div class="mt-5">
-            <a href="https://dayahazmi.github.io/Portfolio_hidayah/" class="block mb-4">
+            <a href="https://dayahazmi.github.io/Portfolio_hidayah/" class="block mb-4" id="portfolio-link">
                 <div class="flex justify-between bg-gray-500 px-5 py-4 rounded-full hover:bg-green-950 hover:scale-105 transition duration-500 cursor-pointer">
                     <p class="text-gray-50">Portfolio</p>
                 </div>
             </a>
-            <a href="https://x.com/SakiHanajima__" class="block mb-4">
+            <a href="https://x.com/SakiHanajima__" class="block mb-4" id="twitter-link">
                 <div class="flex justify-between bg-gray-500 px-5 py-4 rounded-full hover:bg-green-950 hover:scale-105 transition duration-500 cursor-pointer">
                     <p class="text-gray-50">Twitter</p>
                     <div class="icon">
@@ -34,7 +37,7 @@
                 </div>
             </a>
             
-            <a href="https://wa.me/601125411249" class="block mb-4">
+            <a href="https://wa.me/601125411249" class="block mb-4" id="whatsapp-link">
                 <div class="flex justify-between bg-gray-500 px-5 py-4 rounded-full hover:bg-green-950 hover:scale-105 transition duration-500 cursor-pointer">
                     <p class="text-gray-50">Whatsapp</p>
                     <div class="icon ml-4">
@@ -42,7 +45,7 @@
                     </div>
                 </div>
             </a>
-            <a href="mailto:dayah.idami@gmail.com" class="block">
+            <a href="mailto:dayah.idami@gmail.com" class="block" id="email-link">
                 <div class="flex justify-between bg-gray-500 px-5 py-4 rounded-full hover:bg-green-950 hover:scale-105 transition duration-500 cursor-pointer">
                     <p class="text-gray-50">Email</p>
                     <div class="icon">
@@ -52,5 +55,7 @@
             </a>
         </div>
     </div>
+    <button  id="theme-button" class="fixed top-4 right-4 bg-gray-500 text-white p-2 rounded">Toggle theme</button>
+    <script defer src="scripts.js"></script>
 </body>
 </html>
